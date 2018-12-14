@@ -40,8 +40,7 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -75,8 +74,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */ }
 
 /**
@@ -208,8 +206,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -240,8 +237,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -307,70 +303,4 @@ template {
 [hidden] {
   display: none; }
 
-.container-fluid {
-  background-color: black; }
-
-.topContainer {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #b3aaaa;
-  display: block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  height: 200px;
-  outline-color: #4c4e52;
-  outline-style: none;
-  outline-width: 0px;
-  pointer-events: auto;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
-  -webkit-transition-property: height;
-  transition-property: height;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  width: 600px; }
-
-.body {
-  font-size: 15px;
-  font-family: 'Courier New', Courier, monospace; }
-
-.button {
-  background-color: #6d99a2;
-  border-color: #ff272c; }
-
-@-webkit-keyframes bounceIn {
-  0% {
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
-    opacity: 0; }
-  60% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    opacity: 1; }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-@keyframes bounceIn {
-  0% {
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
-    opacity: 0; }
-  60% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    opacity: 1; }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-div {
-  -webkit-animation: bounceIn 2s;
-          animation: bounceIn 2s; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=normalize.css.map */
